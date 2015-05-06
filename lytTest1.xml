@@ -23,13 +23,13 @@
             <next>
               <block type="oled_drawnumber" id="140" inline="true">
                 <value name="NUMBER">
-                  <block type="sensor_object" id="352">
-                    <field name="OBJECT">LEFTFRONT</field>
+                  <block type="sensor_object" id="436">
+                    <field name="OBJECT">LEFTSIDE</field>
                   </block>
                 </value>
                 <next>
                   <block type="oled_drawtext" id="396">
-                    <field name="TEXT">leftFront=</field>
+                    <field name="TEXT">LF=</field>
                     <next>
                       <block type="oled_setcursor" id="215" inline="true">
                         <value name="STARTX">
@@ -51,7 +51,7 @@
                             </value>
                             <next>
                               <block type="oled_drawtext" id="419">
-                                <field name="TEXT">leftSide=</field>
+                                <field name="TEXT">LS=</field>
                                 <next>
                                   <block type="oled_setcursor" id="366" inline="true">
                                     <value name="STARTX">
@@ -73,7 +73,7 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="429">
-                                            <field name="TEXT">rightFront=</field>
+                                            <field name="TEXT">RF=</field>
                                             <next>
                                               <block type="oled_drawnumber" id="374" inline="true">
                                                 <value name="NUMBER">
@@ -95,7 +95,7 @@
                                                     </value>
                                                     <next>
                                                       <block type="oled_drawtext" id="430">
-                                                        <field name="TEXT">rightSide=</field>
+                                                        <field name="TEXT">RS=</field>
                                                         <next>
                                                           <block type="oled_drawnumber" id="379" inline="true">
                                                             <value name="NUMBER">
